@@ -1,6 +1,6 @@
 public class SumtoN {
      public static int sum;
-    public static void printSum(int n){
+     static void printSum(int n){
         if (n == 0){
             System.out.println(sum);
             return ;
