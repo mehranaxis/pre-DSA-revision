@@ -1,17 +1,16 @@
-public class Subcequence {
-    static void printSub(String str, int index, String newStr ){
+import java.util.HashSet;
+public class UniqueSubsequenece {
+    static void printUniqueSub(String str, int index, String newStr, HashSet<String>){
         if (index == str.length()){
-           System.out.println(newStr);
-            return;
-        }
+            if(set.conta)
         char currChar = str.charAt(index);
         // to be
         printSub(str, index+1, newStr + currChar);
         // not to be
         printSub(str, index+1, newStr);
-      
     }
     public static void main(String[] args) {
-        printSub("abc", 0, "");
+        Hashset<String> set = new Hashset<>();
+
     }
 }
